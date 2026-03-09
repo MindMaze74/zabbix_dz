@@ -39,6 +39,9 @@
 
 #### Требования к результатам 
 1. Прикрепите в файл README.md скриншот авторизации в админке.
+https://github.com/MindMaze74/zabbix_dz/blob/main/img/1.png
+https://github.com/MindMaze74/zabbix_dz/blob/main/img/2.png
+
 2. Приложите в файл README.md текст использованных команд в GitHub.
 ```
 Поле для вставки кода...
@@ -52,7 +55,6 @@ apt install -y zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apach
 
 apt update
 apt install -y postgresql postgresql-contrib
-
 
 systemctl start postgresql
 systemctl status postgresql
