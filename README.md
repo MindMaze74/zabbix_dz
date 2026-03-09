@@ -39,10 +39,9 @@
 
 #### Требования к результатам 
 1. Прикрепите в файл README.md скриншот авторизации в админке.
-https://github.com/MindMaze74/zabbix_dz/blob/main/img/1.png
-https://github.com/MindMaze74/zabbix_dz/blob/main/img/2.png
-
-2. Приложите в файл README.md текст использованных команд в GitHub.
+![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/1.png)
+![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/2.png)
+. Приложите в файл README.md текст использованных команд в GitHub.
 ```
 Поле для вставки кода...
 sudo -s
