@@ -121,7 +121,7 @@ sudo systemctl enable zabbix-agent
 sudo netstat -tlnp | grep 10050
 
 ping 192.168.123.1
-sudo tail -f /var/log/zabbix/zabbix_agentd.log
+sudo tail -50 /var/log/zabbix/zabbix_agentd.log
 ```
 ---
 ## Задание 3 со звёздочкой*
