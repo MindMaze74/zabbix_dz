@@ -94,14 +94,17 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 Скриншот-2 к заданию 2
 ![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/3.png)
+
 2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
 
 Скриншот-2 к заданию 2
 ![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/4.png)
+
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 
 Скриншот-2 к заданию 2
 ![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/5.png)
+
 4. Приложите в файл README.md текст использованных команд в GitHub
 ```
 Поле для вставки кода...
