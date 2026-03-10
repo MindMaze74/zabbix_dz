@@ -91,10 +91,31 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 #### Требования к результатам
 1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+Скриншот-2 к заданию 2
+![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/3.png)
 2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+Скриншот-2 к заданию 2
+![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/4.png)
 3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
+Скриншот-2 к заданию 2
+![alt text](https://github.com/MindMaze74/zabbix_dz/blob/main/img/5.png)
 4. Приложите в файл README.md текст использованных команд в GitHub
+```
+Поле для вставки кода...
+sudo -s
+sudo apt update
+sudo apt install zabbix-agent -y
+sudo nano /etc/zabbix/zabbix_agentd.conf
+изменены параметры 
+Server=192.168.123.1
+ServerActive=192.168.123.1
 
+sudo systemctl restart zabbix-agent
+sudo systemctl enable zabbix-agent
+sudo netstat -tlnp | grep 10050
+
+ping 192.168.123.1
+```
 ---
 ## Задание 3 со звёздочкой*
 Установите Zabbix Agent на Windows (компьютер) и подключите его к серверу Zabbix.
